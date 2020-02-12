@@ -20,9 +20,8 @@ eval "docker run -it \
            -v /home/${USER}:/home/${USER} \
            --net=host \
            -u $(id -u):$(id -g) \
-           -p 8888 \
+           -p 83 \
            -w /home/${USER} \
-           --gpus=3,4,5\
            --shm-size 8G \
            ${extra_args} \
            ${image_name}\
