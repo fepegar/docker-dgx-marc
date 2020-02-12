@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-image_name=reubend:MICCAI20
+image_name=fperez:MICCAI20
 #container_name = 0d13c9061269
 extra_args=""
 while [[ $# -gt 0 ]]
